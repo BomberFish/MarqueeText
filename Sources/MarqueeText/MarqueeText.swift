@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import SwiftUI
 
 public struct MarqueeText : View {
@@ -122,3 +123,4 @@ extension String {
         return size.height
     }
 }
+#endif
